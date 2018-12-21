@@ -8,13 +8,13 @@ class DingDingOptionsForm(forms.Form):
                                widget=forms.TextInput(attrs={'placeholder': 'dingding endpoint'}))
 
 class DingDingMessage(NotifyPlugin):
-    author = 'Wangnan0610'
-    author_url = 'https://github.com/wangnan0610/sentry-dingding'
+    author = 'Xierenhong'
+    author_url = 'https://github.com/renrenche-fe/sentry-dingding'
     version = sentry_dingding.VERSION
     description = "sentry dingding"
     resource_links = [
-        ('Bug Tracker', 'https://github.com/wangnan0610/sentry-dingding/issues'),
-        ('Source', 'https://github.com/wangnan0610/sentry-dingding'),
+        ('Bug Tracker', 'https://github.com/renrenche-fe/sentry-dingding/issues'),
+        ('Source', 'https://github.com/renrenche-fe/sentry-dingding'),
     ]
     slug = 'dingding'
     title = 'DingDing'

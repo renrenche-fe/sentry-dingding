@@ -14,7 +14,7 @@ install_requires = [
 
 setup(
     name='rrc-sentry-dingding-robot',
-    version='1.2.2',
+    version='1.2.3',
     author='xierenhong',
     author_email='xierenhong@renrenche.com',
     url='https://github.com/renrenche-fe/sentry-dingding',
