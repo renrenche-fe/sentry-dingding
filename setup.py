@@ -1,6 +1,8 @@
 #!/usr/bin/env python
+# encoding=utf-8
+
 """
-sentry-dingding-robot
+rrc-sentry-dingding-robot
 ==============
 sentry 钉钉机器人通知插件
 """
@@ -11,11 +13,11 @@ install_requires = [
 ]
 
 setup(
-    name='sentry-dingding-robot',
+    name='rrc-sentry-dingding-robot',
     version='1.2.2',
-    author='wangnan0610',
-    author_email='375584419@qq.com',
-    url='https://github.com/wangnan0610/sentry-dingding',
+    author='xierenhong',
+    author_email='xierenhong@renrenche.com',
+    url='https://github.com/renrenche-fe/sentry-dingding',
     description='Sentry的钉钉插件',
     long_description=__doc__,
     packages=find_packages(exclude=['tests']),
